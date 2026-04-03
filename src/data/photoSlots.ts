@@ -1,159 +1,163 @@
-/** Pies de foto — edita el texto cuando quieras afinar la narración. */
+/** Pies de foto. Ajusta el texto si alguna frase no coincide del todo con la imagen. */
 
 export const mercadoSlots = [
   {
     id: "m1",
     label: "Mercado 1",
     caption:
-      "Entrada al Mercado de Maravillas: luz alta, pasillos largos y el rumor de la compra cotidiana en Tetuán.",
+      "Entrada al Mercado de Maravillas: pasillos, luz y gente comprando en Tetuán.",
   },
   {
     id: "m2",
     label: "Mercado 2",
     caption:
-      "Color de fruta y verdura en exposición — el mostrador como vitrina de temporada.",
+      "Fruta y verdura en el mostrador: color y temporada.",
   },
   {
     id: "m3",
     label: "Mercado 3",
     caption:
-      "Detalle de producto y precio: leer la etiqueta ya es empezar la entrevista.",
+      "Producto y precio en la vitrina.",
   },
   {
     id: "m4",
     label: "Mercado 4",
     caption:
-      "Manos que pesan, cortan y recomiendan — oficio visible detrás del cristal.",
+      "Manos del puesto: cortar, pesar, atender.",
   },
   {
     id: "m5",
     label: "Mercado 5",
     caption:
-      "Un pasillo entre puestos: proximidad, olor y ritmo de una ciudad que compra aquí cada semana.",
+      "Pasillo entre puestos: olor, ritmo y vecindario.",
   },
   {
     id: "m6",
     label: "Mercado 6",
     caption:
-      "Texturas del mostrador: lo que se enseña primero y lo que queda guardado en la cámara.",
+      "Detalle del mostrador: texturas y exposición.",
   },
   {
     id: "m7",
     label: "Mercado 7",
     caption:
-      "Viñeta de color — el mercado como mapa de migraciones y sabores.",
+      "Color y variedad: el mercado como cruce de orígenes.",
   },
   {
     id: "m8",
     label: "Mercado 8",
     caption:
-      "Puesto y producto: cada hueco cuenta una historia de origen y proveedor.",
+      "Otro puesto: producto y persona detrás.",
   },
   {
     id: "m9",
     label: "Mercado 9",
     caption:
-      "Luz y sombra: el mercado también es un estudio de fotografía.",
+      "Luz y sombra dentro del edificio.",
   },
   {
     id: "m10",
     label: "Mercado 10",
     caption:
-      "Última mirada antes de salir: lo que se lleva en la bolsa y lo que se queda en la memoria.",
+      "Salida o última vuelta antes de irse con la compra.",
   },
 ];
 
 export const landscapeSlots = [
   {
     id: "l1",
-    label: "En ruta",
+    label: "Carreteras 1",
     caption:
-      "Primera tanda de la carpeta «Carreteras, Olivos y Cielo»: el viaje empieza en la ventana y en la carretera.",
+      "Primera foto de la carpeta «Carreteras, Olivos y Cielo»: escena en ruta (carretera o autobús), según lo que se ve en la imagen.",
   },
   {
     id: "l2",
-    label: "Carretera y horizonte",
+    label: "Carreteras 2",
     caption:
-      "Líneas de asfalto y cielo: transición entre una ciudad y el campo jiennense.",
+      "Segunda foto de la misma carpeta: horizonte, asfalto o cielo abierto.",
   },
   {
     id: "l3",
-    label: "Olivar y distancia",
+    label: "Carreteras 3",
     caption:
-      "El mar de olivos aparece de golpe: entiendo por qué Jaén huele y se ve como huele y se ve.",
+      "Tercera foto: olivares o campo jiennense en el encuadre.",
   },
   {
     id: "l4",
-    label: "Curva y camino",
+    label: "Carreteras 4",
     caption:
-      "Otro encuadre del mismo sur — queserías, rutas y catas quedan a un giro de carretera.",
+      "Cuarta foto: otro ángulo del viaje por carretera o del paisaje.",
   },
   {
     id: "l5",
-    label: "Cielo y campo",
+    label: "Carreteras 5",
     caption:
-      "Luz sobre el paisaje: aquí entendí mejor el terruño antes de volver a correr entre filas de olivos.",
+      "Quinta foto: cielo y tierra sin forzar una hora concreta del día.",
   },
   {
     id: "l6",
-    label: "Media maratón (21 km)",
+    label: "Carreteras 6",
     caption:
-      "Entre olivos corrí una media maratón — 21 km en el paisaje que el programa nos enseñó a leer como economía y como belleza.",
+      "Sexta foto de la carpeta. Durante el viaje corrí una media maratón de 21 km entre olivos; si esta toma no es de ese momento, el pie describe solo lo visible (carretera, olivos, edificio lejano, etc.).",
   },
   {
     id: "l7",
-    label: "Paisaje 7",
-    caption: "Detalle del entorno: textura, color y cansancio bueno del cuerpo en movimiento.",
+    label: "Carreteras 7",
+    caption:
+      "Séptima foto: detalle del entorno que aparece en la imagen.",
   },
   {
     id: "l8",
-    label: "Paisaje 8",
-    caption: "Instante de ruta: otra lectura del mismo sur sin repetir la idea de la foto anterior.",
+    label: "Carreteras 8",
+    caption:
+      "Octava foto: otra vista del mismo bloque de paisaje.",
   },
   {
     id: "l9",
-    label: "Paisaje 9",
-    caption: "Cielo y tierra: cerrar el ojo antes de volver al casco o a la siguiente etapa.",
+    label: "Carreteras 9",
+    caption:
+      "Novena foto: lo que muestra el encuadre (sin inventar atardecer ni niebla si no salen).",
   },
   {
     id: "l10",
-    label: "Paisaje 10",
-    caption: "Última imagen de la carpeta actualizada — olivos, carretera o atardecer jiennense.",
+    label: "Carreteras 10",
+    caption:
+      "Décima y última foto de la carpeta actualizada: carretera, olivar o población, según la imagen.",
   },
   {
     id: "l11",
-    label: "Vía Verde / sendero",
+    label: "Vía Verde",
     caption:
-      "Caminata por la Vía Verde: piernas, aire y paisaje — la dejo aquí, con carreteras y olivos, no en actividades.",
+      "Caminata por la Vía Verde (sendero y vegetación). Van aquí y no en actividades.",
   },
   {
     id: "l12",
-    label: "Sendero y vegetación",
+    label: "Sendero",
     caption:
-      "Otro tramo del sendero: memoria del campo cerca de Úbeda.",
+      "Otro tramo del sendero cerca de Úbeda.",
   },
 ];
 
 export const favoriteCornerSlots = [
   {
     id: "f1",
-    label: "Mi rincón — fútbol",
+    label: "Mi rincón · fútbol",
     caption:
-      "Mi rincón en Úbeda fue el primer día: con mi compañero de cuarto salimos a caminar, vimos a unos niños jugando al fútbol y les pedimos unirnos. Nos partimos en equipo Cristiano Ronaldo contra Messi; yo no juego tan bien, y ellos, a su edad, nos dieron una lección.",
+      "Mi rincón en Úbeda fue el primer día: con mi compañero de cuarto salimos a caminar, vimos a unos niños jugando al fútbol y nos unimos. Equipos Cristiano Ronaldo contra Messi; ellos jugaban mejor que nosotros.",
     aspect: "portrait" as const,
   },
   {
     id: "f2",
-    label: "Mi rincón — plaza",
+    label: "Mi rincón · plaza",
     caption:
-      "La misma tarde en otra esquina del casco: risas, pelota y piedra renacentista de fondo.",
+      "La misma tarde en otra esquina del casco: calles de piedra y el partido improvisado.",
     aspect: "portrait" as const,
   },
   {
     id: "f3",
-    label: "Mi rincón — mirada abierta",
+    label: "Mi rincón · vista",
     caption:
-      "Vista más amplia del momento: Úbeda dejó de ser solo monumentos y pasó a ser cancha improvisada y barrio.",
+      "Vista más amplia del momento: el barrio y la plaza, no solo el monumento.",
     aspect: "landscape" as const,
   },
 ];
@@ -161,95 +165,104 @@ export const favoriteCornerSlots = [
 export const activitySlots = [
   {
     id: "a1",
-    label: "Primeros pasos en Úbeda",
+    label: "Úbeda, primeros días",
     caption:
-      "Llegada y calles de piedra: el grupo descubriendo el casco después del viaje.",
+      "Calle o grupo en el casco: primeras horas en la ciudad.",
   },
   {
     id: "a2",
-    label: "Flamenco y ciudad",
+    label: "Úbeda",
     caption:
-      "Días en Úbeda: entre clase de flamenco, visitas y el ritmo del sur.",
+      "Calle, fachada o detalle urbano del programa en Úbeda.",
   },
   {
     id: "a3",
-    label: "Detalle del patrimonio",
-    caption: "Fachadas y callejones — historia hecha volumen.",
+    label: "Patrimonio",
+    caption:
+      "Piedra, arco o callejón del casco histórico.",
   },
   {
     id: "a4",
-    label: "Plaza o mirador",
-    caption: "Espacio compartido: el viaje en un solo encuadre.",
+    label: "Plaza o espacio",
+    caption:
+      "Plaza, mirador o sitio donde paramos en grupo.",
   },
   {
     id: "a5",
-    label: "Luz sobre la piedra",
-    caption: "Renacimiento y sombras: Baeza y Úbeda como escenario.",
+    label: "Úbeda o Baeza",
+    caption:
+      "Renacimiento y sombras: lo que muestra la foto.",
   },
   {
     id: "a6",
-    label: "Grupo en el casco",
-    caption: "Pausa entre visitas — el cansancio bueno de caminar.",
+    label: "Descanso",
+    caption:
+      "Pausa caminando entre visitas.",
   },
   {
     id: "a7",
-    label: "Atardecer o transición",
-    caption: "Fin de jornada en la provincia de Jaén.",
+    label: "Fin de jornada",
+    caption:
+      "Final del día en provincia (luz según la imagen, sin decir atardecer si no lo hay).",
   },
   {
     id: "a8",
-    label: "Otro ángulo del viaje",
-    caption: "Arcos, ventanas o detalle que no había visto al pasar.",
+    label: "Detalle",
+    caption:
+      "Otro encuadre del viaje en ciudad o museo al aire libre.",
   },
   {
     id: "a9",
     label: "La Cocinita de Anita",
     caption:
-      "Taller de cocina: preparé la ensaladilla rusa (ensalada rusa) y otras recetas regionales. Desde pequeño me gusta freír y ayudar en cocina; aquí pude hacerlo con buena guía.",
+      "Taller de cocina: ensaladilla rusa y otras recetas. Me gusta ayudar en cocina desde pequeño.",
   },
   {
     id: "a10",
-    label: "Mesa y compañía",
+    label: "Mesa",
     caption:
-      "Después del taller: comer lo cocinado, conversar y conectar sabores con historias.",
+      "Comida preparada en el taller o almuerzo en grupo.",
   },
   {
     id: "a11",
-    label: "Cata o degustación",
+    label: "Cata",
     caption:
-      "Aceite, queso o vino — aprender catando: el paladar como cuaderno.",
+      "Degustación: aceite, queso o vino, según lo que salga en la foto.",
   },
   {
     id: "a12",
     label: "Quesos y Besos",
     caption:
-      "Quesería galardonada: ver el proceso y entender por qué un queso viaja del campo al premio.",
+      "Quesería: proceso y producto.",
   },
   {
     id: "a13",
-    label: "Baeza o ruta gastronómica",
-    caption: "El sur en un plano: ciudad, producto y paisaje.",
+    label: "Baeza o ruta",
+    caption:
+      "Imagen de Baeza o de la ruta gastronómica (lo que se ve).",
   },
   {
     id: "a14",
     label: "Cantina La Estación",
     caption:
-      "Cata y maridaje en Cantina La Estación: calidad alta, vinos de la tierra y pescados bien trabajados. La cocina andaluza mezcla mar, aceite y tradición judía, árabe y cristiana; aquí se nota en cada plato.",
+      "Cata y maridaje en Cantina La Estación: platos y copas del menú del viaje.",
   },
   {
     id: "a15",
-    label: "Museo o espacio cultural",
-    caption: "Portafolio: silencio de museo, objeto y memoria.",
+    label: "Museo",
+    caption:
+      "Visita de portafolio: interior de museo o pieza expuesta.",
   },
   {
     id: "a16",
-    label: "Aoveland (Baeza)",
+    label: "Aoveland",
     caption:
-      "Noche en Aoveland: almazara visitable del Grupo Oleícola Jaén — arte, tecnología 4.0 y cata de AOVE con maridajes. Oleoturismo que une Baeza renacentista con el origen del aceite.",
+      "Aoveland en Baeza: almazara, cata de AOVE y ambiente de la noche.",
   },
   {
     id: "a17",
-    label: "Últimos días en Jaén",
-    caption: "Recuerdos antes de Madrid: el mercado, las maletas y lo aprendido.",
+    label: "Antes de Madrid",
+    caption:
+      "Últimos momentos en Jaén antes del mercado en Madrid.",
   },
 ];

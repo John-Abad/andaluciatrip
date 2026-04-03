@@ -20,7 +20,7 @@ export function Footer() {
                 >
                   {mercadoPlace.name}
                 </a>
-                <span className="text-parchment/70"> — {mercadoPlace.address}</span>
+                <span className="text-parchment/70"> · {mercadoPlace.address}</span>
               </li>
               {hotels.map((h) => (
                 <li key={h.name}>

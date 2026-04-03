@@ -5,6 +5,7 @@ import { Timeline } from "./components/Timeline";
 import { ImageSlot } from "./components/ImageSlot";
 import { Interview } from "./components/Interview";
 import { Footer } from "./components/Footer";
+import { MusicMaestro } from "./components/MusicMaestro";
 import {
   activitySlots,
   favoriteCornerSlots,
@@ -42,30 +43,29 @@ export function App() {
   return (
     <div className="min-h-screen">
       <Header />
-      <main>
+      <main className="pb-28">
         <Hero />
 
         <Section
           id="intro"
-          eyebrow="Por qué este viaje"
-          title="Comida, paisaje y la historia detrás del mostrador"
+          eyebrow="Sobre este sitio"
+          title="Portafolio del viaje a Andalucía"
           intro={
             <p className="text-balance">
-              Soy <strong className="font-medium text-olive-900">estudiante de ciencias
-              de la computación</strong> y, para el portafolio del viaje, quise usar mis
-              habilidades: <strong className="font-medium text-olive-900">programé esta
-              página web</strong> para contar en público lo que vivimos en el{" "}
+              Estudio <strong className="font-medium text-olive-900">ciencias de la
+              computación</strong>. Para el trabajo del viaje monté esta web yo mismo:
+              código, fotos y textos. Aquí va lo del{" "}
               <strong className="font-medium text-olive-900">Mercado de Maravillas</strong>
-              , en Úbeda, Baeza y el olivar de Jaén — como viajero y como alguien que
-              aprende cómo España produce, vende y celebra lo que come.
+              , Úbeda, Baeza, Jaén y Madrid, con lo que aprendí de comida, historia y
+              gente.
             </p>
           }
         >
           <p className="max-w-3xl text-base leading-relaxed text-ink/85">
-            Cada sección enlaza con el portafolio: fotos comentadas del mercado, paisajes
-            en ruta (incluida la media maratón entre olivos), mi rincón en Úbeda,
-            actividades desde el flamenco hasta Aoveland, y una entrevista con historia
-            humana detrás del mostrador.
+            Hay secciones de mercado, paisajes en carretera, itinerario, diario, mi rincón
+            en Úbeda, actividades y catas, entrevista y reflexiones. Abajo a la derecha
+            tienes el botón <strong className="font-medium text-olive-900">La música,
+            maestro</strong> para abrir la canción del viaje en YouTube.
           </p>
         </Section>
 
@@ -103,7 +103,7 @@ export function App() {
           id="landscapes"
           eyebrow="Carretera, olivos y cielo"
           title="Paisajes y caminos"
-          intro="Galería renovada con todas las fotos de la carpeta «Carreteras, Olivos y Cielo»: carretera, cielo, olivares, media maratón de 21 km y rutas. Al final, la Vía Verde y el sendero siguen aquí (no en actividades) para que el relato coincida con el paisaje."
+          intro="Fotos de la carpeta «Carreteras, Olivos y Cielo» más la Vía Verde al final. Los pies de foto van numerados para que coincidan con cada archivo; si alguno no encaja con lo que se ve, cámbialo tú en photoSlots.ts."
         >
           <PhotoGrid slots={landscapeSlots} />
         </Section>
@@ -113,7 +113,7 @@ export function App() {
             id="itinerary"
             eyebrow="Ruta"
             title="Itinerario resumido"
-            intro="De Nashville a Madrid, luego hondo en Jaén — Granada y la Alhambra en el corazón del recuerdo — y de vuelta a la capital para el mercado."
+            intro="Nashville, Madrid, Jaén y Granada (día de sorpresa), y otra vez Madrid para el mercado antes de volver."
           >
             <Timeline />
           </Section>
@@ -143,21 +143,22 @@ export function App() {
                 actual: <strong className="font-medium text-olive-900">judíos, musulmanes
                 y cristianos</strong> dejaron capas distintas en arquitectura, agricultura,
                 cocina y lengua. El <strong className="font-medium text-olive-900">día de
-                sorpresa fue Granada</strong> —mi favorito—: la{" "}
+                sorpresa fue Granada</strong>, mi favorito: la{" "}
                 <strong className="font-medium text-olive-900">Alhambra</strong> durante{" "}
                 <strong className="font-medium text-olive-900">Ramadán</strong> me hizo
-                sentir parte de lo que la ciudad vivía; no fue solo turismo, fue compartir
-                un ritmo de fe y respeto. Pude acercarme a la{" "}
+                sentir parte de lo que la ciudad vivía. Con la{" "}
                 <strong className="font-medium text-olive-900">comunidad marroquí en
-                España</strong>: conocí a <strong className="font-medium text-olive-900">Jazmín</strong>, a su mamá y a su familia;{" "}
-                <strong className="font-medium text-olive-900">Isaac</strong> y yo probamos
-                comida hecha en casa, marroquí, generosa. Entré en una{" "}
-                <strong className="font-medium text-olive-900">mezquita</strong>, recé allí y
-                hablé con musulmanes <strong className="font-medium text-olive-900">en
-                español</strong> —fue mi primera vez en ese contexto— y unir Ramadán,
-                la dieta y esos días fue de lo más intenso e importante que me llevo del
-                viaje. En otro pueblo, apenas llegamos, jugamos al fútbol con niños del
-                lugar: un detalle pequeño que también me encantó.
+                España</strong> conocí a <strong className="font-medium text-olive-900">Jazmín</strong>, a su mamá y a su familia.
+                Hubo <strong className="font-medium text-olive-900">comida marroquí en un
+                lugar en Granada</strong>; <strong className="font-medium text-olive-900">Isaac</strong>{" "}
+                pudo probar. Yo no comí en ese momento porque seguía siendo de día en
+                Ramadán y yo también ayunaba, pero me encantó hablar con ellos y ver que
+                ellos también estaban en ayuno. Me sentí en comunidad. Entré en una{" "}
+                <strong className="font-medium text-olive-900">mezquita</strong>, recé y
+                hablé con musulmanes en <strong className="font-medium text-olive-900">español</strong>
+                . Fue mi primera vez en ese contexto. Unir Ramadán, la dieta y esos días
+                fue de lo más intenso que me llevo del viaje. En otro pueblo, apenas
+                llegamos, jugamos al fútbol con niños del lugar: también me encantó.
               </p>
               <p className="mt-4 text-base leading-relaxed text-ink/85">
                 Sobre el <strong className="font-medium text-olive-900">Mercado de
@@ -167,7 +168,7 @@ export function App() {
                 entre olivares, las visitas a queserías y los caminos que ahora agrupo en
                 esa sección del sitio. En <strong className="font-medium text-olive-900">La
                 Cocinita de Anita</strong> cociné la <strong className="font-medium text-olive-900">ensaladilla rusa</strong>: desde pequeño me gusta freír y ayudar en la cocina, y
-                allí pude hacerlo con buena guía. Todo eso —del campo al mercado— me dejó
+                allí pude hacerlo con buena guía. Del campo al mercado, todo eso me dejó
                 más curioso sobre quién produce, quién transporta y quién gana con lo que
                 compro.
               </p>
@@ -196,8 +197,8 @@ export function App() {
               Estación</strong> (cata, maridaje, pescados y vinos de calidad),{" "}
               <strong className="font-medium text-olive-900">Quesos y Besos</strong>,{" "}
               <strong className="font-medium text-olive-900">Aoveland</strong> en Baeza
-              —almazara visitable con arte, tecnología y catas de AOVE— y el día a día en
-              Úbeda. La <strong className="font-medium text-olive-900">cocina andaluza</strong>{" "}
+              (almazara, catas de AOVE) y el día a día en Úbeda. La{" "}
+              <strong className="font-medium text-olive-900">cocina andaluza</strong>{" "}
               mezcla influencias mediterráneas y las herencias judía, islámica y cristiana
               que estudiamos en clase; se nota en aceite, pescado, especias y en cómo se
               comparte la mesa.
@@ -240,7 +241,7 @@ export function App() {
                 <strong className="font-medium text-olive-900">Producción:</strong>{" "}
                 Aprendí cómo se cultiva el olivar en una provincia donde conviven{" "}
                 <strong className="font-medium text-olive-900">decenas de millones de
-                olivos</strong> (cifras que suelen citarse en torno a 60–70 millones de
+                olivos</strong> (cifras que suelen citarse en torno a 60 y 70 millones de
                 árboles en Jaén): orden en el campo, cooperativas, almazaras como
                 estaciones donde el fruto se transforma en AOVE.
               </span>
@@ -269,7 +270,7 @@ export function App() {
                 transformó como consumidor: miro más el origen, las etiquetas y el precio
                 justo. Me encantó la comida, el paisaje y{" "}
                 <strong className="font-medium text-olive-900">mi primera Andalucía</strong>{" "}
-                con el programa — una mezcla de estudio, amistad y memoria que quiero
+                con el programa, una mezcla de estudio, amistad y memoria que quiero
                 seguir explorando.
               </span>
             </li>
@@ -277,6 +278,7 @@ export function App() {
         </Section>
       </main>
       <Footer />
+      <MusicMaestro />
     </div>
   );
 }

@@ -37,7 +37,7 @@ export function Interview() {
             se unieron para comer; <strong className="font-medium text-olive-900">Angélica</strong>{" "}
             y <strong className="font-medium text-olive-900">Laird</strong> también pasaron a
             saludar. Fue un rato bonito, de platos compartidos y risas. Una compañera de
-            clase —que me había ayudado a conocer Madrid otro día—{" "}
+            clase (que me había ayudado a conocer Madrid otro día){" "}
             <strong className="font-medium text-olive-900">probó comida peruana por
             primera vez</strong>; yo le mostré platos y sabores que me recuerdan casa.
             La sazón de la señora era excelente; el foco de la historia es ella, su
@@ -50,8 +50,8 @@ export function Interview() {
           <p className="mt-4 text-sm text-ink/70">
             <span className="font-semibold text-ink">
               Cocinera de Lima · puesto de comida peruana
-            </span>{" "}
-            — Mercado de Maravillas; entrevista informal durante la visita del programa.
+            </span>
+            . Mercado de Maravillas, entrevista informal durante la visita del programa.
           </p>
         </div>
       </div>

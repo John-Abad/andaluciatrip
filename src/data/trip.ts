@@ -77,10 +77,10 @@ export const itinerary: DayEntry[] = [
     title: "Granada (día de sorpresa)",
     location: "Granada",
     highlights: [
-      "Alhambra y ciudad — el día favorito del viaje (ya no es sorpresa, pero en su momento lo fue)",
-      "Ramadán: compartir el calendario religioso con la ciudad y sentirme parte de lo que vivía allí",
-      "Comunidad marroquí en España — comida en casa de Jazmín y su familia (Isaac y yo)",
-      "Mezquita: primera vez orando y hablando con musulmanes en español; días intensos de fe y dieta",
+      "Alhambra y ciudad (día favorito; en su momento fue la sorpresa del programa)",
+      "Ramadán en Granada: calendario de la ciudad y respeto compartido",
+      "Comida marroquí en un lugar en Granada",
+      "Mezquita: oración y conversación con musulmanes en español",
       "Regreso a Úbeda · cena en el hotel",
     ],
   },
@@ -90,7 +90,7 @@ export const itinerary: DayEntry[] = [
     location: "Úbeda → Madrid",
     highlights: [
       "Autobús a Madrid · AC Carlton Marriott Atocha",
-      "17 h · Mercado de Maravillas — entrevistas y trabajo del portafolio",
+      "17 h · Mercado de Maravillas: entrevistas y trabajo del portafolio",
     ],
   },
   {
