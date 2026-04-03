@@ -64,8 +64,8 @@ export function App() {
           <p className="max-w-3xl text-base leading-relaxed text-ink/85">
             Hay secciones de mercado, paisajes en carretera, itinerario, diario, mi rincón
             en Úbeda, actividades y catas, entrevista y reflexiones. Abajo hay una barra
-            para <strong className="font-medium text-olive-900">escuchar la música de
-            fondo</strong> mientras recorres la página (YouTube oculto, sin ventana de vídeo).
+            para <strong className="font-medium text-olive-900">escuchar la canción de la
+            clase</strong> («Morochos · Un lugar») mientras recorres la página.
           </p>
         </Section>
 

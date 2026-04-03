@@ -1,66 +1,63 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import { publicUrl } from "../lib/publicUrl";
 
 /**
- * Canción del viaje en YouTube como música de fondo: iframe oculto (no modal).
- * Un clic en "Escuchar música de fondo" inicia el audio para poder leer el sitio con música.
- * (Los navegadores no suelen permitir sonido sin interacción del usuario.)
+ * Canción de la clase: «Morochos - Un lugar» (MP3 en public/audio).
+ * Un clic inicia el audio; los navegadores suelen exigir interacción del usuario.
  */
-const VIDEO_ID = "8yZWbZaAlac";
-
-function embedUrl(muted: boolean) {
-  const p = new URLSearchParams({
-    autoplay: "1",
-    mute: muted ? "1" : "0",
-    loop: "1",
-    playlist: VIDEO_ID,
-    rel: "0",
-    modestbranding: "1",
-    controls: "0",
-  });
-  return `https://www.youtube-nocookie.com/embed/${VIDEO_ID}?${p.toString()}`;
-}
+const TRACK_SRC = "audio/morochos-un-lugar.mp3";
 
 export function MusicMaestro() {
-  const [playing, setPlaying] = useState(false);
+  const [active, setActive] = useState(false);
   const [muted, setMuted] = useState(false);
+  const audioRef = useRef<HTMLAudioElement>(null);
 
-  const start = () => {
-    setMuted(false);
-    setPlaying(true);
-  };
+  useEffect(() => {
+    const a = audioRef.current;
+    if (!a) return;
+    a.muted = muted;
+  }, [muted]);
+
+  useEffect(() => {
+    if (!active) return;
+    const a = audioRef.current;
+    if (!a) return;
+    void a.play().catch(() => {});
+  }, [active]);
+
+  const start = () => setActive(true);
 
   const stop = () => {
-    setPlaying(false);
+    const a = audioRef.current;
+    if (a) {
+      a.pause();
+      a.currentTime = 0;
+    }
+    setActive(false);
   };
 
   return (
     <>
-      {playing ? (
-        <div
-          className="pointer-events-none fixed bottom-0 left-0 -z-10 h-[120px] w-[200px] overflow-hidden opacity-[0.02]"
-          aria-hidden
-        >
-          <iframe
-            key={muted ? "muted" : "sound"}
-            title="Música de fondo del viaje"
-            src={embedUrl(muted)}
-            width={200}
-            height={113}
-            className="h-[113px] w-[200px] max-w-none border-0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          />
-        </div>
+      {active ? (
+        <audio
+          ref={audioRef}
+          src={publicUrl(TRACK_SRC)}
+          loop
+          preload="auto"
+          className="sr-only"
+          aria-label="Morochos, Un lugar. Música de fondo del viaje."
+        />
       ) : null}
 
       <div className="fixed bottom-0 left-0 right-0 z-[60] border-t border-olive-200/90 bg-parchment/95 px-3 py-3 shadow-[0_-4px_20px_rgba(0,0,0,0.06)] backdrop-blur-md">
         <div className="mx-auto flex max-w-6xl flex-col items-center gap-2 sm:flex-row sm:justify-between sm:gap-4">
           <p className="order-2 text-center text-xs text-ink/65 sm:order-1 sm:max-w-xl sm:text-left">
-            {playing
-              ? "La música suena en segundo plano. Puedes bajar, leer y ver las fotos sin abrir otra pestaña."
-              : "La canción del viaje suena en segundo plano (YouTube oculto). Pulsa una vez para empezar."}
+            {active
+              ? "«Morochos · Un lugar»: música de la clase en segundo plano. Puedes seguir leyendo y viendo las fotos."
+              : "Pulsa para escuchar la canción de la clase mientras navegas por el portafolio."}
           </p>
           <div className="order-1 flex flex-wrap items-center justify-center gap-2 sm:order-2">
-            {!playing ? (
+            {!active ? (
               <button
                 type="button"
                 onClick={start}
