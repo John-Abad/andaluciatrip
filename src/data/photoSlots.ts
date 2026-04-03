@@ -66,51 +66,71 @@ export const mercadoSlots = [
 export const landscapeSlots = [
   {
     id: "l1",
-    label: "Mar de olivos",
+    label: "En ruta",
     caption:
-      "Entre Úbeda y el paisaje jiennense: olivos hasta donde alcanza la vista — aquí corrí una media maratón (21 km) rodeado de ese mar verde.",
+      "Primera tanda de la carpeta «Carreteras, Olivos y Cielo»: el viaje empieza en la ventana y en la carretera.",
   },
   {
     id: "l2",
     label: "Carretera y horizonte",
-    caption: "Ventana del autobús: el viaje como transición entre ciudades y campo.",
+    caption:
+      "Líneas de asfalto y cielo: transición entre una ciudad y el campo jiennense.",
   },
   {
     id: "l3",
-    label: "Luz jiennense",
-    caption: "Cielo amplio y olivar: el terruño que sostiene buena parte del aceite del mundo.",
+    label: "Olivar y distancia",
+    caption:
+      "El mar de olivos aparece de golpe: entiendo por qué Jaén huele y se ve como huele y se ve.",
   },
   {
     id: "l4",
     label: "Curva y camino",
-    caption: "La carretera como hilo entre pueblos, queserías y catas.",
+    caption:
+      "Otro encuadre del mismo sur — queserías, rutas y catas quedan a un giro de carretera.",
   },
   {
     id: "l5",
-    label: "Detalle del paisaje",
-    caption: "Piedra, vegetación y sequía suave — leer el sur desde la distancia.",
+    label: "Cielo y campo",
+    caption:
+      "Luz sobre el paisaje: aquí entendí mejor el terruño antes de volver a correr entre filas de olivos.",
   },
   {
     id: "l6",
-    label: "Vía Verde / sendero",
+    label: "Media maratón (21 km)",
     caption:
-      "Caminata por la Vía Verde: piernas, aire y paisaje — por eso esta foto vive aquí, con carreteras y olivos, no en actividades.",
+      "Entre olivos corrí una media maratón — 21 km en el paisaje que el programa nos enseñó a leer como economía y como belleza.",
   },
   {
     id: "l7",
-    label: "Sendero y vegetación",
-    caption:
-      "Otro tramo del sendero: el campo cerca de Úbeda, memoria del cuerpo en movimiento.",
+    label: "Paisaje 7",
+    caption: "Detalle del entorno: textura, color y cansancio bueno del cuerpo en movimiento.",
   },
   {
     id: "l8",
     label: "Paisaje 8",
-    caption: "Instante de ruta: sin repetir el encuadre anterior, otra lectura del mismo sur.",
+    caption: "Instante de ruta: otra lectura del mismo sur sin repetir la idea de la foto anterior.",
   },
   {
     id: "l9",
     label: "Paisaje 9",
-    caption: "Cierre visual del capítulo olivos y cielo antes del casco urbano.",
+    caption: "Cielo y tierra: cerrar el ojo antes de volver al casco o a la siguiente etapa.",
+  },
+  {
+    id: "l10",
+    label: "Paisaje 10",
+    caption: "Última imagen de la carpeta actualizada — olivos, carretera o atardecer jiennense.",
+  },
+  {
+    id: "l11",
+    label: "Vía Verde / sendero",
+    caption:
+      "Caminata por la Vía Verde: piernas, aire y paisaje — la dejo aquí, con carreteras y olivos, no en actividades.",
+  },
+  {
+    id: "l12",
+    label: "Sendero y vegetación",
+    caption:
+      "Otro tramo del sendero: memoria del campo cerca de Úbeda.",
   },
 ];
 

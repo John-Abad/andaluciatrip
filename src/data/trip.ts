@@ -74,9 +74,15 @@ export const itinerary: DayEntry[] = [
   },
   {
     date: "jue 12 mar",
-    title: "Día de sorpresa",
-    location: "Provincia de Jaén",
-    highlights: ["Excursión sorpresa · por confirmar", "Cena en el hotel"],
+    title: "Granada (día de sorpresa)",
+    location: "Granada",
+    highlights: [
+      "Alhambra y ciudad — el día favorito del viaje (ya no es sorpresa, pero en su momento lo fue)",
+      "Ramadán: compartir el calendario religioso con la ciudad y sentirme parte de lo que vivía allí",
+      "Comunidad marroquí en España — comida en casa de Jazmín y su familia (Isaac y yo)",
+      "Mezquita: primera vez orando y hablando con musulmanes en español; días intensos de fe y dieta",
+      "Regreso a Úbeda · cena en el hotel",
+    ],
   },
   {
     date: "vie 13 mar",

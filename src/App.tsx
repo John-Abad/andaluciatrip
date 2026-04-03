@@ -103,7 +103,7 @@ export function App() {
           id="landscapes"
           eyebrow="Carretera, olivos y cielo"
           title="Paisajes y caminos"
-          intro="Autobús, olivar infinito, media maratón de 21 km en medio del mar de olivos cerca de Úbeda, quesería y catas. Las fotos de la Vía Verde y senderos están aquí, no mezcladas con actividades."
+          intro="Galería renovada con todas las fotos de la carpeta «Carreteras, Olivos y Cielo»: carretera, cielo, olivares, media maratón de 21 km y rutas. Al final, la Vía Verde y el sendero siguen aquí (no en actividades) para que el relato coincida con el paisaje."
         >
           <PhotoGrid slots={landscapeSlots} />
         </Section>
@@ -141,13 +141,23 @@ export function App() {
                 Me fascinó la historia de <strong className="font-medium text-olive-900">al-Ándalus</strong>{" "}
                 y de la <strong className="font-medium text-olive-900">Andalucía</strong>{" "}
                 actual: <strong className="font-medium text-olive-900">judíos, musulmanes
-                y cristianos</strong> dejaron capas distintas —arquitectura, agricultura,
-                cocina, lengua— en lo que hoy se siente al caminar el sur. Pude visitar la{" "}
-                <strong className="font-medium text-olive-900">Alhambra en Granada</strong>;{" "}
-                coincidió con <strong className="font-medium text-olive-900">Ramadán</strong>{" "}
-                y fue muy emotivo conectar espiritual y culturalmente con ese espacio. En
-                un pueblo del viaje, apenas llegamos, jugamos al fútbol con niños del
-                lugar: un detalle pequeño que me encantó y que no olvidaré.
+                y cristianos</strong> dejaron capas distintas en arquitectura, agricultura,
+                cocina y lengua. El <strong className="font-medium text-olive-900">día de
+                sorpresa fue Granada</strong> —mi favorito—: la{" "}
+                <strong className="font-medium text-olive-900">Alhambra</strong> durante{" "}
+                <strong className="font-medium text-olive-900">Ramadán</strong> me hizo
+                sentir parte de lo que la ciudad vivía; no fue solo turismo, fue compartir
+                un ritmo de fe y respeto. Pude acercarme a la{" "}
+                <strong className="font-medium text-olive-900">comunidad marroquí en
+                España</strong>: conocí a <strong className="font-medium text-olive-900">Jazmín</strong>, a su mamá y a su familia;{" "}
+                <strong className="font-medium text-olive-900">Isaac</strong> y yo probamos
+                comida hecha en casa, marroquí, generosa. Entré en una{" "}
+                <strong className="font-medium text-olive-900">mezquita</strong>, recé allí y
+                hablé con musulmanes <strong className="font-medium text-olive-900">en
+                español</strong> —fue mi primera vez en ese contexto— y unir Ramadán,
+                la dieta y esos días fue de lo más intenso e importante que me llevo del
+                viaje. En otro pueblo, apenas llegamos, jugamos al fútbol con niños del
+                lugar: un detalle pequeño que también me encantó.
               </p>
               <p className="mt-4 text-base leading-relaxed text-ink/85">
                 Sobre el <strong className="font-medium text-olive-900">Mercado de

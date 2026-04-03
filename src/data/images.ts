@@ -1,6 +1,7 @@
 /**
  * Rutas relativas a `public/` (sin barra inicial).
- * Senderos (antes en actividades) van en paisajes l6–l7 para no repetir categorías.
+ * Paisajes l1–l10: carpeta actualizada «Carreteras, Olivos y Cielo».
+ * l11–l12: Vía Verde (senderos) desde actividades.
  */
 export const imageOverrides: Record<string, string> = {
   m1: "photos/mercado-01.jpg",
@@ -19,10 +20,13 @@ export const imageOverrides: Record<string, string> = {
   l3: "photos/paisaje-03.jpg",
   l4: "photos/paisaje-04.jpg",
   l5: "photos/paisaje-05.jpg",
-  l6: "photos/actividad-09.jpg",
-  l7: "photos/actividad-10.jpg",
-  l8: "photos/paisaje-06.jpg",
-  l9: "photos/paisaje-07.jpg",
+  l6: "photos/paisaje-06.jpg",
+  l7: "photos/paisaje-07.jpg",
+  l8: "photos/paisaje-08.jpg",
+  l9: "photos/paisaje-09.jpg",
+  l10: "photos/paisaje-10.jpg",
+  l11: "photos/actividad-09.jpg",
+  l12: "photos/actividad-10.jpg",
 
   f1: "photos/rincon-01.png",
   f2: "photos/rincon-02.png",
