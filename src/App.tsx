@@ -137,7 +137,7 @@ export function App() {
 
         <Section
           id="landscapes"
-          eyebrow="Portafolio · 8–10 imágenes"
+          eyebrow="Portafolio · paisajes"
           title="Carretera, olivos y cielo"
           intro="Cristales del autobús, paseos entre pueblos, la Vía Verde — imágenes que te sitúan como visitante que aprende un paisaje, no solo una postal."
         >
@@ -157,9 +157,9 @@ export function App() {
 
         <Section
           id="activities"
-          eyebrow="Portafolio · 10–12 imágenes"
+          eyebrow="Portafolio · actividades y catas"
           title="Actividades y catas"
-          intro="Flamenco, cocina, museos, queso, Aoveland, el día de sorpresa — cada foto con una línea de reflexión, no solo pie de foto."
+          intro="Galería completa del viaje: calles, talleres, catas y encuentros — cada imagen con pie de foto para tu narración."
         >
           <div className="grid gap-10 sm:grid-cols-2">
             {activitySlots.map((slot) => (

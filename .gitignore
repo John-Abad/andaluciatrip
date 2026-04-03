@@ -2,3 +2,6 @@ node_modules
 dist
 .DS_Store
 *.local
+
+# Originales HEIC locales; el sitio usa public/photos (JPEG)
+Galeria/

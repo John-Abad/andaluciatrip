@@ -1,7 +1,9 @@
+import { publicUrl } from "../lib/publicUrl";
+
 type ImageSlotProps = {
   label: string;
   caption: string;
-  /** Archivo en `public/photos/`, p. ej. `/photos/mercado-01.jpg` */
+  /** Ruta bajo `public/`, p. ej. `photos/mercado-01.jpg` */
   src?: string;
   aspect?: "landscape" | "portrait" | "square";
 };
@@ -18,14 +20,17 @@ export function ImageSlot({
   src,
   aspect = "landscape",
 }: ImageSlotProps) {
+  const resolved =
+    src && !/^https?:\/\//i.test(src) ? publicUrl(src) : src;
+
   return (
     <figure className="group">
       <div
         className={`relative overflow-hidden rounded-sm border border-olive-200/80 bg-olive-100/40 shadow-sm ${aspectClass[aspect]}`}
       >
-        {src ? (
+        {resolved ? (
           <img
-            src={src}
+            src={resolved}
             alt={label}
             className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.02]"
             loading="lazy"
