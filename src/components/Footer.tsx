@@ -39,22 +39,13 @@ export function Footer() {
           </div>
           <div>
             <p className="font-display text-xl font-semibold text-parchment">
-              Cómo añadir fotos
+              Agradecimiento
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-parchment/75">
-              Edita los pies de foto en{" "}
-              <code className="rounded bg-parchment/10 px-1.5 py-0.5 text-[0.8rem]">
-                src/data/photoSlots.ts
-              </code>
-              , guarda las imágenes en{" "}
-              <code className="rounded bg-parchment/10 px-1.5 py-0.5 text-[0.8rem]">
-                public/photos/
-              </code>{" "}
-              y enlázalas en{" "}
-              <code className="rounded bg-parchment/10 px-1.5 py-0.5 text-[0.8rem]">
-                src/data/images.ts
-              </code>{" "}
-              con el id de cada hueco.
+            <p className="mt-4 text-sm leading-relaxed text-parchment/85">
+              Gracias a la profesora <strong className="font-semibold text-parchment">Lori Catanzaro</strong> por
+              el curso, la organización del viaje y por guiarnos con tanta dedicación por
+              Andalucía, el mercado y todo lo que aprendimos fuera del aula. Este
+              portafolio y este recorrido llevan su huella.
             </p>
           </div>
         </div>
