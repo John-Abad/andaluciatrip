@@ -51,88 +51,32 @@ export function App() {
           title="Comida, paisaje y la historia detrás del mostrador"
           intro={
             <p className="text-balance">
-              Este sitio es un cuaderno vivo sobre el{" "}
-              <strong className="font-medium text-olive-900">
-                Mercado de Maravillas
-              </strong>
-              , las ciudades renacentistas de Úbeda y Baeza, y el país del aceite y el
-              vino en Jaén — escrito como viajero y como estudiante de cómo España
-              produce, vende y celebra lo que come.
+              Soy <strong className="font-medium text-olive-900">estudiante de ciencias
+              de la computación</strong> y, para el portafolio del viaje, quise usar mis
+              habilidades: <strong className="font-medium text-olive-900">programé esta
+              página web</strong> para contar en público lo que vivimos en el{" "}
+              <strong className="font-medium text-olive-900">Mercado de Maravillas</strong>
+              , en Úbeda, Baeza y el olivar de Jaén — como viajero y como alguien que
+              aprende cómo España produce, vende y celebra lo que come.
             </p>
           }
         >
           <p className="max-w-3xl text-base leading-relaxed text-ink/85">
-            Usa cada sección para alinearla con tu portafolio: fotos comentadas del
-            mercado, paisajes en ruta, un rincón de Úbeda que sea tuyo, actividades
-            desde el flamenco al taller del aceite, y una entrevista que ponga el foco
-            en la historia de una persona, no solo en el producto.
+            Cada sección enlaza con el portafolio: fotos comentadas del mercado, paisajes
+            en ruta (incluida la media maratón entre olivos), mi rincón en Úbeda,
+            actividades desde el flamenco hasta Aoveland, y una entrevista con historia
+            humana detrás del mostrador.
           </p>
-        </Section>
-
-        <div className="bg-white/60">
-          <Section
-            id="itinerary"
-            eyebrow="Ruta"
-            title="Itinerario resumido"
-            intro="De Nashville a Madrid, luego hondo en Jaén, y de vuelta a la capital para el mercado."
-          >
-            <Timeline />
-          </Section>
-        </div>
-
-        <Section
-          id="journal"
-          eyebrow="Notas de campo"
-          title="Diario"
-          intro="Reflexiones sobre cadena de suministro, historia, terruño, políticas alimentarias, medio ambiente y cómo este viaje me ha cambiado como consumidor."
-        >
-          <div>
-            <div className="rounded-lg border border-olive-200/80 bg-parchment/80 p-6 md:p-8">
-              <p className="text-base leading-relaxed text-ink/85">
-                Lo que más me sorprendió del camino del aceite y del queso del campo a la
-                mesa fue la cantidad de decisiones invisibles que hay entre el olivo y la
-                botella, o entre el rebaño y la loncha. En Jaén no solo vi olivos: vi
-                etiquetas, denominaciones, catadores y normas que convierten un liquido
-                en “producto”. En la quesería entendí que el “mejor queso del mundo” no
-                es un eslogan suelto: es trabajo, clima, salud animal y tiempo. Antes
-                consumía aceite y queso como cosas que se “eligen en el estante”; ahora
-                imagino también al productor, al transporte y al mercado que las
-                acerca.
-              </p>
-              <p className="mt-4 text-base leading-relaxed text-ink/85">
-                Úbeda y Baeza me enseñaron a leer el paisaje con ojos de historia. La
-                piedra renacentista ordena plazas y fachadas, pero fuera de las murallas
-                el orden es otro: filas de olivos, secano, cielo amplio. La ciudad
-                habla de poder, religión y belleza; el campo habla de sequía, cosecha y
-                precio. Las dos cosas conviven: sin el campo no hay aceite para
-                ensalzar la cocina; sin la ciudad no hay mercado donde contar la
-                historia. Caminar entre monumentos y luego entre olivos me hizo
-                sentir que “el sur” no es solo un escenario bonito, es una economía
-                real.
-              </p>
-              <p className="mt-4 text-base leading-relaxed text-ink/85">
-                En el Mercado de Maravillas, Madrid se me apareció como ciudad global en
-                miniatura: acentos distintos, productos de muchos orígenes, clientes que
-                compran con la bolsa de la semana y otros que buscan un ingrediente
-                concreto. “Fresco” en Tetuán no es solo una palabra: es confianza en el
-                puesto, la relación con el vendedor, la rotación del mercado y la
-                proximidad a la cocina. No es un supermercado homogéneo: es un nodo donde
-                se cruzan barrio, migración y comida. De vuelta a casa, me pregunto con
-                más frecuencia quién se beneficia cuando yo elijo un producto
-                barato, y qué significa realmente “comprar bien”.
-              </p>
-            </div>
-          </div>
         </Section>
 
         <div className="bg-olive-50/50">
           <Section
             id="mercado"
-            eyebrow="Portafolio · 8–10 imágenes"
+            eyebrow="Portafolio · Mercado de Maravillas"
             title="Mercado de Maravillas"
             intro={
               <p>
-                Viernes 17 h — entrevistas y observación en el{" "}
+                El viernes por la tarde trabajamos en el{" "}
                 <a
                   href="https://mercadomaravillas.com/"
                   className="font-medium text-terracotta-700 underline decoration-terracotta-300 underline-offset-2 hover:text-terracotta-800"
@@ -141,8 +85,13 @@ export function App() {
                 >
                   Mercado de Maravillas
                 </a>
-                . Una foto por historia de puesto: producto, gesto, luz, precios, el
-                ritmo del pasillo.
+                . Me encantó: me recordó a los mercados de{" "}
+                <strong className="font-medium text-olive-900">Lima</strong>. Había
+                puestos de <strong className="font-medium text-olive-900">Perú,
+                Ecuador y Colombia</strong> y muchos productos latinoamericanos; también
+                carnes, mariscos y postres de otros rincones del mundo, no solo de
+                Latinoamérica. Sinceramente, en varios pasillos casi no notaba la
+                diferencia con casa: fue muy bonito y familiar.
               </p>
             }
           >
@@ -152,19 +101,76 @@ export function App() {
 
         <Section
           id="landscapes"
-          eyebrow="Portafolio · paisajes"
-          title="Carretera, olivos y cielo"
-          intro="Cristales del autobús, paseos entre pueblos, la Vía Verde — imágenes que te sitúan como visitante que aprende un paisaje, no solo una postal."
+          eyebrow="Carretera, olivos y cielo"
+          title="Paisajes y caminos"
+          intro="Autobús, olivar infinito, media maratón de 21 km en medio del mar de olivos cerca de Úbeda, quesería y catas. Las fotos de la Vía Verde y senderos están aquí, no mezcladas con actividades."
         >
           <PhotoGrid slots={landscapeSlots} />
+        </Section>
+
+        <div className="bg-white/60">
+          <Section
+            id="itinerary"
+            eyebrow="Ruta"
+            title="Itinerario resumido"
+            intro="De Nashville a Madrid, luego hondo en Jaén — Granada y la Alhambra en el corazón del recuerdo — y de vuelta a la capital para el mercado."
+          >
+            <Timeline />
+          </Section>
+        </div>
+
+        <Section
+          id="journal"
+          eyebrow="Notas de campo"
+          title="Diario"
+          intro="Cadena de suministro, historia, terruño, políticas alimentarias, medio ambiente y cómo este viaje me ha cambiado como consumidor."
+        >
+          <div>
+            <div className="rounded-lg border border-olive-200/80 bg-parchment/80 p-6 md:p-8">
+              <p className="text-base leading-relaxed text-ink/85">
+                <strong className="font-medium text-olive-900">Ahora me encanta el aceite
+                de oliva.</strong> Antes no tenía tanta información sobre cuántas
+                calidades y tipos existen: virgen extra, coupage, monovarietales, usos en
+                cocina… En Jaén entendí el trabajo detrás de cada botella. También me
+                gusta el vino, pero no conocía tanto la diferencia entre{" "}
+                <strong className="font-medium text-olive-900">tintos, blancos y otros
+                estilos</strong>; las catas y maridajes del viaje me ayudaron a aprender
+                vocabulario y criterio.
+              </p>
+              <p className="mt-4 text-base leading-relaxed text-ink/85">
+                Me fascinó la historia de <strong className="font-medium text-olive-900">al-Ándalus</strong>{" "}
+                y de la <strong className="font-medium text-olive-900">Andalucía</strong>{" "}
+                actual: <strong className="font-medium text-olive-900">judíos, musulmanes
+                y cristianos</strong> dejaron capas distintas —arquitectura, agricultura,
+                cocina, lengua— en lo que hoy se siente al caminar el sur. Pude visitar la{" "}
+                <strong className="font-medium text-olive-900">Alhambra en Granada</strong>;{" "}
+                coincidió con <strong className="font-medium text-olive-900">Ramadán</strong>{" "}
+                y fue muy emotivo conectar espiritual y culturalmente con ese espacio. En
+                un pueblo del viaje, apenas llegamos, jugamos al fútbol con niños del
+                lugar: un detalle pequeño que me encantó y que no olvidaré.
+              </p>
+              <p className="mt-4 text-base leading-relaxed text-ink/85">
+                Sobre el <strong className="font-medium text-olive-900">Mercado de
+                Maravillas</strong>, ya lo cuento arriba: cercanía a Lima, diversidad de
+                productos y sensación de hogar. En <strong className="font-medium text-olive-900">carreteras, olivos y cielo</strong>, además del paisaje, destaco la{" "}
+                <strong className="font-medium text-olive-900">media maratón de 21 km</strong>{" "}
+                entre olivares, las visitas a queserías y los caminos que ahora agrupo en
+                esa sección del sitio. En <strong className="font-medium text-olive-900">La
+                Cocinita de Anita</strong> cociné la <strong className="font-medium text-olive-900">ensaladilla rusa</strong>: desde pequeño me gusta freír y ayudar en la cocina, y
+                allí pude hacerlo con buena guía. Todo eso —del campo al mercado— me dejó
+                más curioso sobre quién produce, quién transporta y quién gana con lo que
+                compro.
+              </p>
+            </div>
+          </div>
         </Section>
 
         <div className="border-y border-olive-200/60 bg-white/40">
           <Section
             id="rincon"
-            eyebrow="Portafolio · 2–3 imágenes"
+            eyebrow="Mi rincón en Úbeda"
             title="Mi rincón en Úbeda"
-            intro="El banco, la plaza, el hueco de luz — adonde volviste más de una vez y por qué te quedó como punto fijo."
+            intro="El primer día, el fútbol con los niños y el barrio que se abrió antes que los monumentos."
           >
             <PhotoGrid slots={favoriteCornerSlots} />
           </Section>
@@ -172,9 +178,21 @@ export function App() {
 
         <Section
           id="activities"
-          eyebrow="Portafolio · actividades y catas"
+          eyebrow="Actividades y catas"
           title="Actividades y catas"
-          intro="Galería completa del viaje: calles, talleres, catas y encuentros — cada imagen con pie de foto para tu narración."
+          intro={
+            <p>
+              Flamenco, museos, <strong className="font-medium text-olive-900">Cantina La
+              Estación</strong> (cata, maridaje, pescados y vinos de calidad),{" "}
+              <strong className="font-medium text-olive-900">Quesos y Besos</strong>,{" "}
+              <strong className="font-medium text-olive-900">Aoveland</strong> en Baeza
+              —almazara visitable con arte, tecnología y catas de AOVE— y el día a día en
+              Úbeda. La <strong className="font-medium text-olive-900">cocina andaluza</strong>{" "}
+              mezcla influencias mediterráneas y las herencias judía, islámica y cristiana
+              que estudiamos en clase; se nota en aceite, pescado, especias y en cómo se
+              comparte la mesa.
+            </p>
+          }
         >
           <div className="grid gap-10 sm:grid-cols-2">
             {activitySlots.map((slot) => (
@@ -193,7 +211,7 @@ export function App() {
             id="interview"
             eyebrow="Portafolio"
             title="Entrevista"
-            intro="Un vendedor o cliente del mercado — su historia en relación con el puesto, la migración, el negocio familiar o el barrio."
+            intro="Una cocinera de Lima en el Mercado de Maravillas: migración, familia y sazón."
           >
             <Interview />
           </Section>
@@ -203,37 +221,46 @@ export function App() {
           id="reflections"
           eyebrow="Cierre"
           title="Reflexiones y conexiones"
-          intro="Une el viaje a tu futuro: estudios, carrera, ciudadanía y cómo compras comida cuando vuelvas a casa."
+          intro="Producción, cadena de suministro, cultura y un yo distinto al que salió de Nashville."
         >
           <ul className="space-y-4 text-base leading-relaxed text-ink/85">
             <li className="flex gap-3">
               <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-terracotta-500" />
               <span>
                 <strong className="font-medium text-olive-900">Producción:</strong>{" "}
-                ¿Qué aprendiste sobre cómo se cultiva y certifica la comida en Jaén?
+                Aprendí cómo se cultiva el olivar en una provincia donde conviven{" "}
+                <strong className="font-medium text-olive-900">decenas de millones de
+                olivos</strong> (cifras que suelen citarse en torno a 60–70 millones de
+                árboles en Jaén): orden en el campo, cooperativas, almazaras como
+                estaciones donde el fruto se transforma en AOVE.
               </span>
             </li>
             <li className="flex gap-3">
               <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-terracotta-500" />
               <span>
                 <strong className="font-medium text-olive-900">Cadena de suministro:</strong>{" "}
-                De la quesería al mostrador del mercado — ¿dónde están los
-                intermediarios?
+                Me interesó ver cómo el aceite, el queso y el vino pasan por espacios como
+                el centro del olivo, la quesería y experiencias como{" "}
+                <strong className="font-medium text-olive-900">Aoveland</strong> antes de
+                llegar a un mercado urbano o a un restaurante.
               </span>
             </li>
             <li className="flex gap-3">
               <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-terracotta-500" />
               <span>
                 <strong className="font-medium text-olive-900">Cultura:</strong>{" "}
-                Flamenco, silencio de catedral, ritmo de tapas — ¿qué tradiciones
-                cambiaron tus expectativas?
+                El flamenco me encantó: compré <strong className="font-medium text-olive-900">abanicos</strong> para regalar en Estados Unidos. Traje <strong className="font-medium text-olive-900">aceites y chocolates</strong> a mi familia. Andalucía es un cruce de culturas donde el pasado musulmán y cristiano sigue vivo en la calle y en el plato; conectar eso con mi primera vez en el sur, con la clase, fue especial.
               </span>
             </li>
             <li className="flex gap-3">
               <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-terracotta-500" />
               <span>
-                <strong className="font-medium text-olive-900">Tú:</strong> ¿Cómo te
-                transformó esta experiencia como consumidor y como persona?
+                <strong className="font-medium text-olive-900">Yo:</strong> El viaje me
+                transformó como consumidor: miro más el origen, las etiquetas y el precio
+                justo. Me encantó la comida, el paisaje y{" "}
+                <strong className="font-medium text-olive-900">mi primera Andalucía</strong>{" "}
+                con el programa — una mezcla de estudio, amistad y memoria que quiero
+                seguir explorando.
               </span>
             </li>
           </ul>

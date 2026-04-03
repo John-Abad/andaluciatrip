@@ -1,6 +1,6 @@
 /**
- * Rutas relativas a `public/` (sin barra inicial). Compatibles con GitHub Pages
- * gracias a `publicUrl` en `ImageSlot`.
+ * Rutas relativas a `public/` (sin barra inicial).
+ * Senderos (antes en actividades) van en paisajes l6–l7 para no repetir categorías.
  */
 export const imageOverrides: Record<string, string> = {
   m1: "photos/mercado-01.jpg",
@@ -19,8 +19,10 @@ export const imageOverrides: Record<string, string> = {
   l3: "photos/paisaje-03.jpg",
   l4: "photos/paisaje-04.jpg",
   l5: "photos/paisaje-05.jpg",
-  l6: "photos/paisaje-06.jpg",
-  l7: "photos/paisaje-07.jpg",
+  l6: "photos/actividad-09.jpg",
+  l7: "photos/actividad-10.jpg",
+  l8: "photos/paisaje-06.jpg",
+  l9: "photos/paisaje-07.jpg",
 
   f1: "photos/rincon-01.png",
   f2: "photos/rincon-02.png",
@@ -34,15 +36,13 @@ export const imageOverrides: Record<string, string> = {
   a6: "photos/actividad-06.jpg",
   a7: "photos/actividad-07.jpg",
   a8: "photos/actividad-08.jpg",
-  a9: "photos/actividad-09.jpg",
-  a10: "photos/actividad-10.jpg",
-  a11: "photos/actividad-11.jpg",
-  a12: "photos/actividad-12.jpg",
-  a13: "photos/actividad-13.jpg",
-  a14: "photos/actividad-14.jpg",
-  a15: "photos/actividad-15.jpg",
-  a16: "photos/actividad-16.jpg",
-  a17: "photos/actividad-17.jpg",
-  a18: "photos/actividad-18.jpg",
-  a19: "photos/actividad-19.jpg",
+  a9: "photos/actividad-11.jpg",
+  a10: "photos/actividad-12.jpg",
+  a11: "photos/actividad-13.jpg",
+  a12: "photos/actividad-14.jpg",
+  a13: "photos/actividad-15.jpg",
+  a14: "photos/actividad-16.jpg",
+  a15: "photos/actividad-17.jpg",
+  a16: "photos/actividad-18.jpg",
+  a17: "photos/actividad-19.jpg",
 };

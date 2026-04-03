@@ -10,8 +10,8 @@ export function Interview() {
           <div className="overflow-hidden rounded-sm border border-olive-200/80 shadow-sm">
             <img
               src={publicUrl(interviewPhoto)}
-              alt="Entrevista en el Mercado de Maravillas — cocina peruana"
-              className="aspect-[4/5] w-full object-cover"
+              alt="Cocinera del puesto peruano en el Mercado de Maravillas"
+              className="aspect-[4/5] w-full object-cover object-[88%_center] sm:object-[90%_center]"
               loading="lazy"
             />
           </div>
@@ -21,27 +21,27 @@ export function Interview() {
             Mercado de Maravillas · Tetuán, Madrid
           </p>
           <h3 className="font-display mt-1 text-2xl font-semibold text-olive-900">
-            Una barra peruana en medio de la ciudad
+            Lima en la barra del mercado
           </h3>
           <p className="mt-4 text-base leading-relaxed text-ink/85">
-            Buscamos sitio para comer y acabamos en un puesto donde servían comida
-            peruana: ají, cítricos y calor distinto al de la tapa castellana. Detrás de la
-            barra había una señora, de Perú, que llevaba años en Madrid. No estaba solo
-            para “cocinar de paso”: había montado el negocio con recetas de casa, las
-            mismas que su familia preparaba en Lima, adaptadas a lo que encontraba en
-            los mercados de aquí. En el Mercado de Maravillas, me dijo, la gente compra
-            con prisa pero también con fidelidad: si el ceviche o la causa salen bien un
-            viernes, el viernes siguiente vuelven los mismos rostros.
+            Me encantó esta entrevista porque conocí a una señora de{" "}
+            <strong className="font-medium text-olive-900">Lima</strong>: vino a Madrid con
+            su esposo, mientras que sus hijos siguen viviendo en Perú. Ella trabaja en el
+            mercado, cocina con sazón de casa y habla del Perú con cariño. Hablamos de
+            nuestra comida, de cómo nos adaptamos al migrar y de que{" "}
+            <strong className="font-medium text-olive-900">Madrid</strong> le ha gustado
+            construir una vida aquí, aunque el corazón siga dividido entre dos orillas.
           </p>
           <p className="mt-4 text-base leading-relaxed text-ink/85">
-            Comimos allí en grupo: platos compartidos, pan, bebida, risas. Ella pasaba de
-            la cocina al mostrador sin perder el hilo: saludar a un vecino, recomendar
-            un plato a un indeciso, aceptar un pedido en español y en peruano a la vez.
-            Para mí, su historia enlazó migración y economía: no es solo “comida
-            peruana”, es una cadena pequeña — proveedor, mercado, cliente — que
-            sostiene un hogar lejos del océano. El mercado dejó de ser un lugar
-            anónimo: pasó a ser el sitio donde una cocinera peruana había hecho
-            encajar su país en el barrio.
+            <strong className="font-medium text-olive-900">Aiden, Isaac, Brady y José</strong>{" "}
+            se unieron para comer; <strong className="font-medium text-olive-900">Angélica</strong>{" "}
+            y <strong className="font-medium text-olive-900">Laird</strong> también pasaron a
+            saludar. Fue un rato bonito, de platos compartidos y risas. Una compañera de
+            clase —que me había ayudado a conocer Madrid otro día—{" "}
+            <strong className="font-medium text-olive-900">probó comida peruana por
+            primera vez</strong>; yo le mostré platos y sabores que me recuerdan casa.
+            La sazón de la señora era excelente; el foco de la historia es ella, su
+            trayectoria y cómo el mercado sostiene ese puente entre países.
           </p>
           <blockquote className="mt-6 border-l-4 border-terracotta-400 pl-5 font-display text-lg italic leading-relaxed text-olive-900">
             «Aquí cocino como en mi casa; si falta algo, lo busco en otro puesto y lo
@@ -49,10 +49,9 @@ export function Interview() {
           </blockquote>
           <p className="mt-4 text-sm text-ink/70">
             <span className="font-semibold text-ink">
-              Cocinera y dueña del puesto de comida peruana
+              Cocinera de Lima · puesto de comida peruana
             </span>{" "}
-            — entrevista informal en el Mercado de Maravillas; la cita resume su vínculo
-            con el barrio y con la cocina de origen.
+            — Mercado de Maravillas; entrevista informal durante la visita del programa.
           </p>
         </div>
       </div>

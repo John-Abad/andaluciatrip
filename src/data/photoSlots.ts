@@ -66,62 +66,74 @@ export const mercadoSlots = [
 export const landscapeSlots = [
   {
     id: "l1",
-    label: "Carretera y olivos",
+    label: "Mar de olivos",
     caption:
-      "Camino hacia Úbeda: la meseta se abre en olivos y líneas de horizonte.",
+      "Entre Úbeda y el paisaje jiennense: olivos hasta donde alcanza la vista — aquí corrí una media maratón (21 km) rodeado de ese mar verde.",
   },
   {
     id: "l2",
-    label: "Paisaje 2",
-    caption: "Ventana del autobús: ritmo de campo y cielo amplio.",
+    label: "Carretera y horizonte",
+    caption: "Ventana del autobús: el viaje como transición entre ciudades y campo.",
   },
   {
     id: "l3",
-    label: "Paisaje 3",
-    caption: "Luz sobre el paisaje jiennense — verde plateado y tierra.",
+    label: "Luz jiennense",
+    caption: "Cielo amplio y olivar: el terruño que sostiene buena parte del aceite del mundo.",
   },
   {
     id: "l4",
-    label: "Paisaje 4",
-    caption: "Curva de la carretera: el viaje como transición entre ciudades.",
+    label: "Curva y camino",
+    caption: "La carretera como hilo entre pueblos, queserías y catas.",
   },
   {
     id: "l5",
-    label: "Paisaje 5",
-    caption: "Detalle del entorno — textura de piedra, vegetación y cielo.",
+    label: "Detalle del paisaje",
+    caption: "Piedra, vegetación y sequía suave — leer el sur desde la distancia.",
   },
   {
     id: "l6",
-    label: "Paisaje 6",
-    caption: "Una parada visual: el sur desde la distancia.",
+    label: "Vía Verde / sendero",
+    caption:
+      "Caminata por la Vía Verde: piernas, aire y paisaje — por eso esta foto vive aquí, con carreteras y olivos, no en actividades.",
   },
   {
     id: "l7",
-    label: "Paisaje 7",
-    caption: "Cierre de paisaje: volver la mirada al camino recorrido.",
+    label: "Sendero y vegetación",
+    caption:
+      "Otro tramo del sendero: el campo cerca de Úbeda, memoria del cuerpo en movimiento.",
+  },
+  {
+    id: "l8",
+    label: "Paisaje 8",
+    caption: "Instante de ruta: sin repetir el encuadre anterior, otra lectura del mismo sur.",
+  },
+  {
+    id: "l9",
+    label: "Paisaje 9",
+    caption: "Cierre visual del capítulo olivos y cielo antes del casco urbano.",
   },
 ];
 
 export const favoriteCornerSlots = [
   {
     id: "f1",
-    label: "Mi rincón — 1",
+    label: "Mi rincón — fútbol",
     caption:
-      "Un rincón de Úbeda donde la piedra y la silenciosa escala del casco antiguo se detienen.",
+      "Mi rincón en Úbeda fue el primer día: con mi compañero de cuarto salimos a caminar, vimos a unos niños jugando al fútbol y les pedimos unirnos. Nos partimos en equipo Cristiano Ronaldo contra Messi; yo no juego tan bien, y ellos, a su edad, nos dieron una lección.",
     aspect: "portrait" as const,
   },
   {
     id: "f2",
-    label: "Mi rincón — 2",
+    label: "Mi rincón — plaza",
     caption:
-      "La misma plaza en otra luz: sombra y contraste, refugio de la visita.",
+      "La misma tarde en otra esquina del casco: risas, pelota y piedra renacentista de fondo.",
     aspect: "portrait" as const,
   },
   {
     id: "f3",
-    label: "Mi rincón — 3",
+    label: "Mi rincón — mirada abierta",
     caption:
-      "Vista más abierta del rincón: el espacio que elegí volver a mirar.",
+      "Vista más amplia del momento: Úbeda dejó de ser solo monumentos y pasó a ser cancha improvisada y barrio.",
     aspect: "landscape" as const,
   },
 ];
@@ -129,97 +141,95 @@ export const favoriteCornerSlots = [
 export const activitySlots = [
   {
     id: "a1",
-    label: "Actividad 1",
-    caption: "Primeros días en la provincia — calle, grupo y ciudad de piedra.",
+    label: "Primeros pasos en Úbeda",
+    caption:
+      "Llegada y calles de piedra: el grupo descubriendo el casco después del viaje.",
   },
   {
     id: "a2",
-    label: "Actividad 2",
-    caption: "Caminar y mirar: detalle de fachada o encuentro en el casco.",
+    label: "Flamenco y ciudad",
+    caption:
+      "Días en Úbeda: entre clase de flamenco, visitas y el ritmo del sur.",
   },
   {
     id: "a3",
-    label: "Actividad 3",
-    caption: "Pausa, conversación y entorno — el viaje en pequeños instantes.",
+    label: "Detalle del patrimonio",
+    caption: "Fachadas y callejones — historia hecha volumen.",
   },
   {
     id: "a4",
-    label: "Actividad 4",
-    caption: "Úbeda o Baeza: el patrimonio como telón de fondo.",
+    label: "Plaza o mirador",
+    caption: "Espacio compartido: el viaje en un solo encuadre.",
   },
   {
     id: "a5",
-    label: "Actividad 5",
-    caption: "Luz sobre la piedra renacentista — historia hecha volumen.",
+    label: "Luz sobre la piedra",
+    caption: "Renacimiento y sombras: Baeza y Úbeda como escenario.",
   },
   {
     id: "a6",
-    label: "Actividad 6",
-    caption: "Espacio compartido: plaza, callejón o mirador.",
+    label: "Grupo en el casco",
+    caption: "Pausa entre visitas — el cansancio bueno de caminar.",
   },
   {
     id: "a7",
-    label: "Actividad 7",
-    caption: "Cierre de jornada — sombras largas y cansancio bueno.",
+    label: "Atardecer o transición",
+    caption: "Fin de jornada en la provincia de Jaén.",
   },
   {
     id: "a8",
-    label: "Actividad 8",
-    caption: "Otro ángulo del patrimonio: textura, arco o ventana.",
+    label: "Otro ángulo del viaje",
+    caption: "Arcos, ventanas o detalle que no había visto al pasar.",
   },
   {
     id: "a9",
-    label: "Actividad 9",
-    caption: "Vía Verde o camino — cuerpo en movimiento y paisaje.",
+    label: "La Cocinita de Anita",
+    caption:
+      "Taller de cocina: preparé la ensaladilla rusa (ensalada rusa) y otras recetas regionales. Desde pequeño me gusta freír y ayudar en cocina; aquí pude hacerlo con buena guía.",
   },
   {
     id: "a10",
-    label: "Actividad 10",
-    caption: "Sendero y vegetación: el campo cerca de la ciudad.",
+    label: "Mesa y compañía",
+    caption:
+      "Después del taller: comer lo cocinado, conversar y conectar sabores con historias.",
   },
   {
     id: "a11",
-    label: "Actividad 11",
-    caption: "Talleres y encuentros — manos en la cocina o en la mesa.",
+    label: "Cata o degustación",
+    caption:
+      "Aceite, queso o vino — aprender catando: el paladar como cuaderno.",
   },
   {
     id: "a12",
-    label: "Actividad 12",
-    caption: "Mesa compartida: comida como vínculo.",
+    label: "Quesos y Besos",
+    caption:
+      "Quesería galardonada: ver el proceso y entender por qué un queso viaja del campo al premio.",
   },
   {
     id: "a13",
-    label: "Actividad 13",
-    caption: "Cata, aceite o queso — degustar como aprender.",
+    label: "Baeza o ruta gastronómica",
+    caption: "El sur en un plano: ciudad, producto y paisaje.",
   },
   {
     id: "a14",
-    label: "Actividad 14",
-    caption: "Momento en Baeza o en ruta — el sur en un solo plano.",
+    label: "Cantina La Estación",
+    caption:
+      "Cata y maridaje en Cantina La Estación: calidad alta, vinos de la tierra y pescados bien trabajados. La cocina andaluza mezcla mar, aceite y tradición judía, árabe y cristiana; aquí se nota en cada plato.",
   },
   {
     id: "a15",
-    label: "Actividad 15",
-    caption: "Espacio interior o museo — silencio y objeto.",
+    label: "Museo o espacio cultural",
+    caption: "Portafolio: silencio de museo, objeto y memoria.",
   },
   {
     id: "a16",
-    label: "Actividad 16",
-    caption: "Detalle de producto o ritual — lo cotidiano elevado.",
+    label: "Aoveland (Baeza)",
+    caption:
+      "Noche en Aoveland: almazara visitable del Grupo Oleícola Jaén — arte, tecnología 4.0 y cata de AOVE con maridajes. Oleoturismo que une Baeza renacentista con el origen del aceite.",
   },
   {
     id: "a17",
-    label: "Actividad 17",
-    caption: "Aoveland o maridaje — noche de luces y copas.",
-  },
-  {
-    id: "a18",
-    label: "Actividad 18",
-    caption: "Últimos días en Jaén — recuerdo en imagen.",
-  },
-  {
-    id: "a19",
-    label: "Actividad 19",
-    caption: "Cierre de actividades — antes de volver a Madrid y al mercado.",
+    label: "Últimos días en Jaén",
+    caption: "Recuerdos antes de Madrid: el mercado, las maletas y lo aprendido.",
   },
 ];

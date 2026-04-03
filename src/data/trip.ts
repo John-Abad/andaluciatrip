@@ -7,7 +7,7 @@ export type DayEntry = {
 };
 
 /** Título del sitio (hero y etiqueta title del documento) */
-export const siteTitle = "Somos una barra de bar: Viaje a Andalucía";
+export const siteTitle = "Somos de barra de bar: Viaje a Andalucía";
 
 export const tripTitle = siteTitle;
 export const tripSubtitle =
