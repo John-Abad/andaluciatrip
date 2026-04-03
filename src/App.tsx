@@ -83,28 +83,43 @@ export function App() {
         <Section
           id="journal"
           eyebrow="Notas de campo"
-          title="Diario (sustituye por tu voz)"
-          intro="Borra los marcadores y escribe aquí o en los pies de foto: cadena de suministro, historia, terruño, políticas, medio ambiente y cómo te ha cambiado como consumidor."
+          title="Diario"
+          intro="Reflexiones sobre cadena de suministro, historia, terruño, políticas alimentarias, medio ambiente y cómo este viaje me ha cambiado como consumidor."
         >
           <div>
             <div className="rounded-lg border border-olive-200/80 bg-parchment/80 p-6 md:p-8">
               <p className="text-base leading-relaxed text-ink/85">
-                <em className="text-olive-800">
-                  [Párrafo: ¿qué te sorprendió del camino del aceite o el queso del campo
-                  a la mesa?]
-                </em>
+                Lo que más me sorprendió del camino del aceite y del queso del campo a la
+                mesa fue la cantidad de decisiones invisibles que hay entre el olivo y la
+                botella, o entre el rebaño y la loncha. En Jaén no solo vi olivos: vi
+                etiquetas, denominaciones, catadores y normas que convierten un liquido
+                en “producto”. En la quesería entendí que el “mejor queso del mundo” no
+                es un eslogan suelto: es trabajo, clima, salud animal y tiempo. Antes
+                consumía aceite y queso como cosas que se “eligen en el estante”; ahora
+                imagino también al productor, al transporte y al mercado que las
+                acerca.
               </p>
               <p className="mt-4 text-base leading-relaxed text-ink/85">
-                <em className="text-olive-800">
-                  [Párrafo: Baeza y Úbeda como marco renacentista — ¿cómo dialoga la
-                  piedra con lo que se cultiva fuera de las murallas?]
-                </em>
+                Úbeda y Baeza me enseñaron a leer el paisaje con ojos de historia. La
+                piedra renacentista ordena plazas y fachadas, pero fuera de las murallas
+                el orden es otro: filas de olivos, secano, cielo amplio. La ciudad
+                habla de poder, religión y belleza; el campo habla de sequía, cosecha y
+                precio. Las dos cosas conviven: sin el campo no hay aceite para
+                ensalzar la cocina; sin la ciudad no hay mercado donde contar la
+                historia. Caminar entre monumentos y luego entre olivos me hizo
+                sentir que “el sur” no es solo un escenario bonito, es una economía
+                real.
               </p>
               <p className="mt-4 text-base leading-relaxed text-ink/85">
-                <em className="text-olive-800">
-                  [Párrafo: el mercado de Madrid como nodo en una ciudad global — ¿quién
-                  compra aquí y qué significa «fresco» en Tetuán?]
-                </em>
+                En el Mercado de Maravillas, Madrid se me apareció como ciudad global en
+                miniatura: acentos distintos, productos de muchos orígenes, clientes que
+                compran con la bolsa de la semana y otros que buscan un ingrediente
+                concreto. “Fresco” en Tetuán no es solo una palabra: es confianza en el
+                puesto, la relación con el vendedor, la rotación del mercado y la
+                proximidad a la cocina. No es un supermercado homogéneo: es un nodo donde
+                se cruzan barrio, migración y comida. De vuelta a casa, me pregunto con
+                más frecuencia quién se beneficia cuando yo elijo un producto
+                barato, y qué significa realmente “comprar bien”.
               </p>
             </div>
           </div>
